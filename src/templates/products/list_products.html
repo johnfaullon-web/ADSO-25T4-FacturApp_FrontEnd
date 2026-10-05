@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>List Products</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+
+    <tbody class="table-group-divider">
+        <tr>
+            <td>1</td>
+            <td>Paracetamol</td>
+            <td>Medicines</td>
+            <td>$5.000</td>
+            <td>50</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Vitamin C</td>
+            <td>Vitamins</td>
+            <td>$12.000</td>
+            <td>30</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Alcohol</td>
+            <td>Personal Care</td>
+            <td>$8.000</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+</table>
+
+{% endblock %}
